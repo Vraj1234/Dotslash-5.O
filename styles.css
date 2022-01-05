@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  background-color: lightseagreen;
+  height: 100%;
+  padding: 2em;
+}
+
+.page-description {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: linen;
+}
+
+.app {
+  background-color: lightskyblue;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.app h3 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.app button {
+  color: mintcream;
+  width: 10em;
+  margin: 0.5em;
+  border-radius: 20px;
+}
+
+.app button:hover {
+  background-color: snow;
+  color: black;
+}
+
+a {
+  color: slateblue;
+}
+
+.no-notes {
+  text-align: center;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
