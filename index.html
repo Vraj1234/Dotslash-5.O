@@ -39,9 +39,13 @@
         <textarea id="txt" cols="10" rows="10"></textarea>
         <input onclick="speakText()" type="button" value="submit"> -->
         <script>
-            function speakText(){
-                var text = document.getElementById('note-textarea').value;
-                responsiveVoice.speak(text);
+            function speakText() {
+                var textarea = document.getElementById('note-textarea');
+                let badwords = /fuck|dopey|grump|happy|sleepy|doc/gi;
+                let prevText = textarea.value;
+                let newText = prevText.replace(badwords,'eee');
+                document.getElementById('note-textarea').value = newText;
+                responsiveVoice.speak(newText);
             }
         </script>
     </body>
